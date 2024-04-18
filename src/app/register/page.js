@@ -110,7 +110,7 @@ export default function Register() {
               <option value="I Hall">I Hall</option>
               <option value="Alumni Seminar Hall">Alumni Seminar Hall</option>
               <option value="Parade Ground">Parade Ground</option>
-              <option value="Lord's Ground">Lord's Ground</option>
+              <option value="Lords Ground">Lords Ground</option>
             </select>
             <input
               type="text"

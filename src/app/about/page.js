@@ -26,7 +26,7 @@ export default function About() {
           <p className="w-2/3 m-5 text-base md:text-lg">
             Welcome to Rizeni Event Manager, where we blend creativity with precision to craft extraordinary events tailored to your every need. 
             Established in 2010 by a team of seasoned professionals, Rizeni was born from a shared passion for redefining event experiences. 
-            With a commitment to innovation and personalized service, we've spent over a decade orchestrating unforgettable moments that leave a lasting impression.
+            With a commitment to innovation and personalized service, we have spent over a decade orchestrating unforgettable moments that leave a lasting impression.
           </p>
         </div>
         {/* About Us part ends */}

@@ -101,7 +101,7 @@ export default function AlterEvent() {
                     {/* <button onClick={getSavedToke}>Saved Token Details</button> */}
 
                     {/* Get Evets List */}
-                    <div className="h-[20rem] w-[30rem] flex flex-col justify-center items-center text-center">
+                    <div className="h-max w-[30rem] flex flex-col justify-center items-center text-center">
                         {eves.map((tod) => {
                             return (
                                 <div key={tod._id}>

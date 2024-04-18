@@ -84,10 +84,12 @@ export default function GetMyProfile() {
               <p>Name: {userData.name}</p>
               <p>Email: {userData.email}</p>
               <p>Gender: {userData.gender}</p>
-              <p>Age: {userData.age}</p>
-              <p>Height (in cm): {userData.height}</p>
-              <p>Weight (in KG): {userData.weight}</p>
-              <p>Branch: {userData.branch}</p>
+              <p>Category: {userData.category}</p>
+              <p>Venue: {userData.venue}</p>
+              <p>Duration (in min): {userData.duration}</p>
+              <p>Date: {userData.date}</p>
+              <p>Costume: {userData.costume}</p>
+              <p>Type: {userData.type}</p>
               <div className="flex my-5 gap-4">
                 {/* Upload Profile Pic */}
                 <button className="custom-button-1 w-[11rem]" onClick={() => navigate("/login/uploadprofilepic")}>

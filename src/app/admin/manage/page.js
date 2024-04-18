@@ -16,7 +16,7 @@ export default function GetMyProfile() {
         try {
             const token = localStorage.getItem("aToken");
             localStorage.removeItem("aToken");
-            const response = await fetch(`${process.env.NEXT_PUBLIC_BACK_URL}/logout`, {
+            const response = await fetch(`${process.env.NEXT_PUBLIC_BACK_URL}/admin/logout`, {
                 method: "GET",
                 headers: {
                     "content-type": "application/json",
@@ -63,20 +63,20 @@ export default function GetMyProfile() {
         <main className="bg-slate-300">
             <div className="flex gap-[2vh] flex-wrap justify-evenly py-10 text-2xl font-serif">
                 <a href="/admin/manage/cevent">
-                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center">
+                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center bg-gradient-to-r from-indigo-500 to-indigo-900 rounded-lg">
                         Create Event
                     </div>
                 </a>
                 <a href="/admin/manage/aevent">
-                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center">
+                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center bg-gradient-to-r from-indigo-500 to-indigo-900 rounded-lg">
                         Alter Event
                     </div>
                 </a>
-                <a href="/about">
-                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center">
+                {/* <a href="/admin/manage">
+                    <div className="w-[50vh] h-[17rem] border flex justify-center items-center bg-gradient-to-r from-indigo-500 to-indigo-900 rounded-lg">
                         See Feedbacks
                     </div>
-                </a>
+                </a> */}
             </div>
             <div className="flex flex-col justify-center items-center text-center py-16">
                 <div className="p-8 border-4 border-yellow bg-black text-white shadow-2xl rounded-3xl">

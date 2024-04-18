@@ -1,0 +1,111 @@
+h3{
+    @apply font-semibold;
+    @apply text-lg;
+    @apply md:text-xl;
+    @apply lg:text-2xl;
+    @apply uppercase;
+    @apply text-center;
+    @apply mt-5;
+}
+
+h6{
+    @apply font-semibold;
+    @apply text-lg;
+    @apply md:text-xl;
+    @apply lg:text-2xl;
+    @apply text-yellow;
+    @apply uppercase;
+}
+
+/* Faculty Details Starts */
+.row-faculty-details{
+    @apply flex;
+    @apply flex-wrap;
+    @apply justify-center;
+    @apply items-center;
+    @apply md:gap-40;
+}
+
+.faculty-details{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply text-center;
+    @apply justify-center;
+    @apply h-[20rem];
+    @apply w-[90vw];
+    @apply md:w-[20vw];
+    @apply rounded-md;
+    @apply p-3;
+    @apply my-3;
+    @apply hover:shadow-md;
+    @apply duration-500;
+}
+
+.faculty-image{
+    @apply w-36;
+    @apply h-36;
+    @apply rounded-full;
+    @apply object-cover;
+    @apply shadow-2xl;
+    @apply my-5;
+}
+
+.faculty-name{
+    @apply font-semibold;
+    @apply text-lg;
+    @apply md:text-xl;
+    @apply lg:text-2xl;
+    @apply uppercase;
+}
+
+.faculty-role{
+    @apply font-semibold;
+    @apply text-base;
+    @apply md:text-lg;
+    @apply lg:text-xl;
+    @apply text-yellow;
+    @apply uppercase;
+    @apply mt-5;
+}
+/* Faculty Details ends */
+
+.about-container{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    /* @apply bg-white; */
+    @apply p-5;
+    @apply rounded-3xl;
+    @apply shadow-2xl;
+    @apply mt-3;
+    @apply w-11/12;
+    @apply h-[42rem];
+    @apply lg:w-2/5;
+    @apply duration-500;
+    @apply transform;
+    @apply hover:-translate-y-4;
+}
+
+.membership-options{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply text-center;
+    @apply justify-center;
+}
+
+span {
+    @apply font-bold;
+    @apply text-xl;
+    @apply block;
+    @apply mt-3;
+}
+
+.price{
+    @apply font-bold;
+    @apply mb-4;
+    @apply text-xl;
+    @apply md:text-2xl;
+    @apply text-amber-300;
+}
